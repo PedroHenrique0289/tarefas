@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="Clínica especializada em saúde e bem-estar.">
+    <title>Clínica do Povo</title>
+</head>
+<body>
+    <header>
+        <h1> Cadastro - Clínica do Povo </h1>
+    </header>
+     <nav>
+    <a href="index.html">Home</a>   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="Galeria.html">Galeria</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <a href="Cadastro.html">Cadastro</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </nav>
+    <hr>
+<br>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+ <br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required> <br>
+<br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <br>
+<br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required> <br>
+<br>
+        <label for="dataNascimento">Data de Nascimento:</label>
+        <input type="date" id="dataNascimento" name="dataNascimento" required> <br>
+<br>
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero" required>
+            <option value="">Selecione</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select> <br>
+<br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required> <br>
+<br>
+        <label for="CPF">CPF:</label>
+        <input type="text" id="CPF" name="CPF" required> <br>
+ <br>
+        <label for=hidden">Número do Cartão SUS:</label>
+        <input type="text" id="cartaoSUS" name="cartaoSUS" required> <br>
+ <br>
+        <label for="textarea">Observações:</label>
+         <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea> <br>
+<br>
+        <label for="campo de upload">Enviar Documentos:</label>
+        <input type="file" id="documentos" name="documentos" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"> <br>
+<br>
+        <label for="checkbox">Aceito os termos e condições:</label>
+        <input type="checkbox" id="termos" name="termos" required> <br>
+
+<br>
+        <button type="submit">Enviar</button> <br>
+    </fieldset>
+<hr>
+<footer>
+<p>Endereço: floriano Peixoto, 123 - Centro, Uberlândia - MG</p>
+    <p> Telefone: (34) 9545-5698</p>
+</footer>
+</body>
