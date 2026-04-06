@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página 1</title>
+</head>
+<body>
+    <h1>Cadastro de Participante</h1>
+</body>
+</html>
+<a href="#Informações">Informações Básicas</a> |
+<a href="#Preferências">Preferências</a> |
+<a href="#observacoes">Observações</a>
+<hr>
+<fieldset>
+    <legend>Informações Básicas </legend> <h1 id="Informações">Informações Básicas</h1>
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required> <br>
+<br
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> <br>
+<br>
+    <label for="telefone">CPF:</label>
+    <input type="text" id="telefone" name="telefone" required> <br>
+<br>
+</fieldset>
+
+<fieldset>
+    <legend>Preferências</legend> <h1 id="Preferências">Preferências</h1>
+    <label for="interesses">Escolha sua área de interesse:</label> <br>
+<br>
+    <input type="radio" value="ia" id="ia" name="interesses">
+    <label for="ia">Inteligência Artificial</label> <br>
+
+    <input type="radio" id="web" name="interesses" value="web">
+    <label for="web">Desenvolvimento Web</label> <br>
+
+    <input type="radio" id="mobile" name="interesses" value="mobile">
+    <label for="mobile">Games </label> <br>
+<br>
+<br>
+    <label for="nivel">Selecione os tópicos adicionais desejados:</label> <br>
+<br>
+    <input type="checkbox" id="Machine="nivel" value="nivel1">
+    <label for="nivel1">Machine Learning</label> <br>
+
+    <input type="checkbox" id="Cloud" name="nivel" value="nivel2">
+    <label for="Cloud">Cloud </label> <br>
+
+    <input type="checkbox" id="loT" name="nivel" value="nivel3">
+    <label for="nivel3">loT</label> <br>
+
+</fieldset>
+
+<fieldset>
+
+    <legend>Observações</legend> <h1 id="observacoes">Observações</h1>
+    <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea> <br>
+
+</fieldset>
+<br>
+<button type="submit">Enviar Cadastro</button>
+<hr>
+&copy; 2026 - Evento Acadêmico
