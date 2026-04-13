@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(219, 219, 226);
+}
+
+header{
+    background-color: #0a0f21;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #141827;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color:white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.card1 {
+    background-color: white;
+    margin-top: 50px;
+    justify-self: center;
+    border-radius: 8px;
+    box-shadow: 1px 1px 20px;
+    padding: 25px;
+    width: 80%;
+}
+
+.subcard1 {
+    background-color: rgba(102, 160, 207, 0.342);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.subcard2 {
+    text-align: center;
+    font-size: larger;
+}
+
+.subcard3 {
+   background-color: rgb(20, 103, 255);
+   color: white;
+   padding: 1px;
+   border-radius: 8px 8px 0px 0px;
+   font-size: larger;
+}
+
+.border {
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cards2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px;
+}
+
+footer{
+    text-align: center;
+    background-color: #0a0f21;
+    color: white;
+    padding: 20px;
+    height: 50px;
+}
