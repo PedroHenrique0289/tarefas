@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Cadastro de Produtos</title>
+</head>
+<body id="body" class="body">
+    <h1>Sistema de Cadastro de Produtos</h1>
+<br>
+    <div class="div1">
+        <div class="div2">
+        <label for="produto">Nome do produto:</label><br>
+        <input type="text" id="produto">
+        </div>
+<br>    
+        <div class="div3">
+        <label for="preco">Preço:</label><br>
+        <input type="number" id="preco">
+        </div>
+<br>
+    <p id="mensagem" class="mensagem"></p>
+<br>
+    </div><br>
+    <button onclick="addproduto()">Adicionar</button>
+<br>
+    <button onclick="cadastrarProduto()">Cadastrar</button>
+<br>
+    <button onclick="limparCampos()">Remover último produto cadastrado</button>
+<br>
+    <p id="mostrarproduto"></p>
+<br>
+    <h2>Produtos Cadastrados</h2>
+    <ul id="listaProdutos" class="lista"></ul>
+<br>
+    <h2>Quantidade de Produtos Adicionados</h2>
+    <p id="quantidade" class="quantidade"></p>
+<br>
+    <h2>Valor Total dos Produtos Cadastrados</h2>
+    <p id="total" class="total"></p>
+<br>
+    <h2>Produto mais caro</h2>
+    <p id="produtoMaisCaro" class="produto-mais-caro"></p>
+<br>
+    <h2>Produto mais barato</h2>
+    <p id="produtoMaisBarato" class="produto-mais-barato"></p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
